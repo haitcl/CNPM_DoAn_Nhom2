@@ -25,7 +25,7 @@ namespace CNPM_DoAn_Nhom2
         {
             InitializeComponent();
         }
-
+        /CNPM
         private void IntroForm_Load(object sender, EventArgs e)
         {
             timer1.Start();
