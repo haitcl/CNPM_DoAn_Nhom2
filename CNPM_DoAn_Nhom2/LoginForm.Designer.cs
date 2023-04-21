@@ -116,7 +116,7 @@
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.Thiết_kế_chưa_có_tên__2_;
+            this.guna2PictureBox1.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.soccer2;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(58, -18);
             this.guna2PictureBox1.Name = "guna2PictureBox1";

@@ -31,31 +31,31 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.optTrandau = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.optBaoCao = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.optTracuu = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.optQuyDinh = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.optQuanligiai = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.optDangXuat = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.pnlMain = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optTrandau)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optBaoCao)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optTracuu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optQuyDinh)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optQuanligiai)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optDangXuat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,17 +63,17 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.optTrandau);
             this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.optBaoCao);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.optTracuu);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.guna2PictureBox4);
-            this.panel1.Controls.Add(this.guna2PictureBox3);
-            this.panel1.Controls.Add(this.guna2PictureBox2);
+            this.panel1.Controls.Add(this.optQuyDinh);
+            this.panel1.Controls.Add(this.optQuanligiai);
+            this.panel1.Controls.Add(this.optDangXuat);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
@@ -85,11 +85,9 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1203, 166);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label10
             // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -100,44 +98,42 @@
             this.label10.TabIndex = 32;
             this.label10.Text = "TRẬN ĐẤU";
             // 
-            // pictureBox3
+            // optTrandau
             // 
-            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.quabong;
-            this.pictureBox3.Location = new System.Drawing.Point(593, 36);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(118, 69);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 31;
-            this.pictureBox3.TabStop = false;
+            this.optTrandau.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.optTrandau.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.quabong;
+            this.optTrandau.Location = new System.Drawing.Point(593, 36);
+            this.optTrandau.Name = "optTrandau";
+            this.optTrandau.Size = new System.Drawing.Size(118, 69);
+            this.optTrandau.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.optTrandau.TabIndex = 31;
+            this.optTrandau.TabStop = false;
             // 
             // label9
             // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(841, 113);
+            this.label9.Location = new System.Drawing.Point(840, 111);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(87, 23);
             this.label9.TabIndex = 30;
             this.label9.Text = "BÁO CÁO";
             // 
-            // pictureBox2
+            // optBaoCao
             // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.baocao;
-            this.pictureBox2.Location = new System.Drawing.Point(833, 36);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(105, 74);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 29;
-            this.pictureBox2.TabStop = false;
+            this.optBaoCao.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.optBaoCao.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.baocao;
+            this.optBaoCao.Location = new System.Drawing.Point(833, 34);
+            this.optBaoCao.Name = "optBaoCao";
+            this.optBaoCao.Size = new System.Drawing.Size(105, 74);
+            this.optBaoCao.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.optBaoCao.TabIndex = 29;
+            this.optBaoCao.TabStop = false;
             // 
             // label8
             // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -148,25 +144,25 @@
             this.label8.TabIndex = 28;
             this.label8.Text = "TRA CỨU";
             // 
-            // pictureBox1
+            // optTracuu
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.search;
-            this.pictureBox1.Location = new System.Drawing.Point(733, 36);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(73, 72);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 27;
-            this.pictureBox1.TabStop = false;
+            this.optTracuu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.optTracuu.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.search;
+            this.optTracuu.Location = new System.Drawing.Point(733, 36);
+            this.optTracuu.Name = "optTracuu";
+            this.optTracuu.Size = new System.Drawing.Size(73, 72);
+            this.optTracuu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.optTracuu.TabIndex = 27;
+            this.optTracuu.TabStop = false;
+            this.optTracuu.Click += new System.EventHandler(this.optTracuu_Click);
             // 
             // label7
             // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(971, 111);
+            this.label7.Location = new System.Drawing.Point(965, 110);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(94, 23);
             this.label7.TabIndex = 26;
@@ -174,12 +170,11 @@
             // 
             // label6
             // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(1081, 113);
+            this.label6.Location = new System.Drawing.Point(1081, 109);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(110, 23);
             this.label6.TabIndex = 25;
@@ -187,7 +182,6 @@
             // 
             // label5
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -197,48 +191,47 @@
             this.label5.Size = new System.Drawing.Size(122, 23);
             this.label5.TabIndex = 24;
             this.label5.Text = "QUẢN LÝ GIẢI";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // guna2PictureBox4
+            // optQuyDinh
             // 
-            this.guna2PictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2PictureBox4.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.rule;
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(975, 26);
-            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(87, 99);
-            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox4.TabIndex = 2;
-            this.guna2PictureBox4.TabStop = false;
+            this.optQuyDinh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.optQuyDinh.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.rule;
+            this.optQuyDinh.ImageRotate = 0F;
+            this.optQuyDinh.Location = new System.Drawing.Point(966, 18);
+            this.optQuyDinh.Margin = new System.Windows.Forms.Padding(4);
+            this.optQuyDinh.Name = "optQuyDinh";
+            this.optQuyDinh.Size = new System.Drawing.Size(87, 99);
+            this.optQuyDinh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.optQuyDinh.TabIndex = 2;
+            this.optQuyDinh.TabStop = false;
             // 
-            // guna2PictureBox3
+            // optQuanligiai
             // 
-            this.guna2PictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.hồ_sơ;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(490, 35);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(81, 70);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox3.TabIndex = 2;
-            this.guna2PictureBox3.TabStop = false;
+            this.optQuanligiai.BackColor = System.Drawing.Color.Transparent;
+            this.optQuanligiai.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.optQuanligiai.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.hoso;
+            this.optQuanligiai.ImageRotate = 0F;
+            this.optQuanligiai.Location = new System.Drawing.Point(490, 35);
+            this.optQuanligiai.Margin = new System.Windows.Forms.Padding(4);
+            this.optQuanligiai.Name = "optQuanligiai";
+            this.optQuanligiai.Size = new System.Drawing.Size(81, 70);
+            this.optQuanligiai.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.optQuanligiai.TabIndex = 2;
+            this.optQuanligiai.TabStop = false;
             // 
-            // guna2PictureBox2
+            // optDangXuat
             // 
-            this.guna2PictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.logoutt;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(1097, 36);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(77, 70);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox2.TabIndex = 23;
-            this.guna2PictureBox2.TabStop = false;
+            this.optDangXuat.BackColor = System.Drawing.Color.Transparent;
+            this.optDangXuat.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.optDangXuat.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.logoutt;
+            this.optDangXuat.ImageRotate = 0F;
+            this.optDangXuat.Location = new System.Drawing.Point(1100, 35);
+            this.optDangXuat.Margin = new System.Windows.Forms.Padding(4);
+            this.optDangXuat.Name = "optDangXuat";
+            this.optDangXuat.Size = new System.Drawing.Size(77, 70);
+            this.optDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.optDangXuat.TabIndex = 23;
+            this.optDangXuat.TabStop = false;
             // 
             // label2
             // 
@@ -251,7 +244,6 @@
             this.label2.Size = new System.Drawing.Size(244, 52);
             this.label2.TabIndex = 16;
             this.label2.Text = "FIT LEAGUE";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
             // 
@@ -291,7 +283,7 @@
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.Thiết_kế_chưa_có_tên__2_;
+            this.guna2PictureBox1.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.soccer2;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(-41, -17);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -305,42 +297,42 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 713);
+            this.panel2.Location = new System.Drawing.Point(0, 753);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1203, 50);
+            this.panel2.Size = new System.Drawing.Size(1203, 10);
             this.panel2.TabIndex = 1;
             // 
-            // panel3
+            // pnlMain
             // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 166);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1203, 547);
-            this.panel3.TabIndex = 2;
+            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlMain.Location = new System.Drawing.Point(0, 166);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.Size = new System.Drawing.Size(1203, 587);
+            this.pnlMain.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1203, 763);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FIT LEAGUE";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optTrandau)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optBaoCao)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optTracuu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optQuyDinh)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optQuanligiai)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.optDangXuat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -355,18 +347,18 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
+        private Guna.UI2.WinForms.Guna2PictureBox optDangXuat;
+        private Guna.UI2.WinForms.Guna2PictureBox optQuanligiai;
+        private Guna.UI2.WinForms.Guna2PictureBox optQuyDinh;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox optTracuu;
+        private System.Windows.Forms.PictureBox optBaoCao;
+        private System.Windows.Forms.PictureBox optTrandau;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel pnlMain;
     }
 }

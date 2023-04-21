@@ -17,29 +17,24 @@ namespace CNPM_DoAn_Nhom2
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        //Kiểu tra active form
+        public Form activeForm = null;
+        public void OpenChildForm(Form frm)
         {
-
+            if(activeForm !=null)
+            {
+                activeForm.Close();
+            }
+            activeForm = frm;
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Dock = DockStyle.Fill;
+            frm.TopLevel = false;
+            frm.Show();
+            pnlMain.Controls.Add(frm);
         }
-
-        private void label2_Click(object sender, EventArgs e)
+        private void optTracuu_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            OpenChildForm(new FormSearch());
         }
     }
 }

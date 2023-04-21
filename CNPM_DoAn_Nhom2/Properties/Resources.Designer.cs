@@ -103,9 +103,9 @@ namespace CNPM_DoAn_Nhom2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hồ_sơ {
+        internal static System.Drawing.Bitmap hoso {
             get {
-                object obj = ResourceManager.GetObject("hồ_sơ", resourceCulture);
+                object obj = ResourceManager.GetObject("hoso", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace CNPM_DoAn_Nhom2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Thiết_kế_chưa_có_tên__1_ {
+        internal static System.Drawing.Bitmap soccer1 {
             get {
-                object obj = ResourceManager.GetObject("Thiết_kế_chưa_có_tên__1_", resourceCulture);
+                object obj = ResourceManager.GetObject("soccer1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace CNPM_DoAn_Nhom2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Thiết_kế_chưa_có_tên__2_ {
+        internal static System.Drawing.Bitmap soccer2 {
             get {
-                object obj = ResourceManager.GetObject("Thiết_kế_chưa_có_tên__2_", resourceCulture);
+                object obj = ResourceManager.GetObject("soccer2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

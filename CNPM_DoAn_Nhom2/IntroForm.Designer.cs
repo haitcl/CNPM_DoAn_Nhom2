@@ -83,7 +83,7 @@
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.Thiết_kế_chưa_có_tên__2_;
+            this.guna2PictureBox1.Image = global::CNPM_DoAn_Nhom2.Properties.Resources.soccer2;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(216, 75);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
